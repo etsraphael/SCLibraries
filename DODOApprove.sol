@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 
+// This is a file copied from https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol
+
 pragma solidity ^0.8.0;
 
 /**
@@ -74,11 +76,6 @@ interface IERC20 {
 
 // File: contracts/lib/SafeMath.sol
 
-/*
-
-    Copyright 2020 DODO ZOO.
-
-*/
 
 /**
  * @title SafeMath
@@ -135,13 +132,6 @@ library SafeMath {
 }
 
 // File: contracts/lib/SafeERC20.sol
-
-/*
-
-    Copyright 2020 DODO ZOO.
-    This is a simplified version of OpenZepplin's SafeERC20 library
-
-*/
 
 /**
  * @title SafeERC20
@@ -221,12 +211,6 @@ library SafeERC20 {
 
 // File: contracts/lib/InitializableOwnable.sol
 
-/*
-
-    Copyright 2020 DODO ZOO.
-
-*/
-
 /**
  * @title Ownable
  * @author DODO Breeder
@@ -277,12 +261,6 @@ contract InitializableOwnable {
 }
 
 // File: contracts/SmartRoute/DODOApprove.sol
-
-/*
-
-    Copyright 2020 DODO ZOO.
-
-*/
 
 /**
  * @title DODOApprove
