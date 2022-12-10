@@ -76,7 +76,6 @@ interface IERC20 {
 
 // File: contracts/lib/SafeMath.sol
 
-
 /**
  * @title SafeMath
  * @author DODO Breeder
